@@ -1,0 +1,1 @@
+1. The bug was the variable interpret the input as a string. Therefore when calculateSum() do result <- num1 + num2, it becomes string concatnating operation. Ex: num1 = 123, num2 = 1 -> result = 1231
